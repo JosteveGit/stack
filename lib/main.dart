@@ -40,7 +40,6 @@ class _SinginPageState extends State<SinginPage> {
     var small = currentWidth > 1201;
     var extraSmall = currentWidth > 1025;
 
-    var Validators;
     return Scaffold(
       backgroundColor: Colors.white,
       body: Row(
@@ -113,7 +112,7 @@ class _SinginPageState extends State<SinginPage> {
                                   BorderSide(color: Colors.indigo, width: 2.0),
                             ),
                           ),
-                          validator: Validators.required('Email is required!'),
+                          // validator: Validators.required('Email is required!'),
                         ),
                       ),
                       const SizedBox(height: 25.0),
@@ -167,8 +166,8 @@ class _SinginPageState extends State<SinginPage> {
                                   BorderSide(color: Colors.indigo, width: 2.0),
                             ),
                           ),
-                          validator:
-                              Validators.required('Password is required!'),
+                          // validator:
+                          //     Validators.required('Password is required!'),
                         ),
                       ),
                       const SizedBox(height: 10.0),
